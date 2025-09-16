@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "3c0ed701-c46f-4d25-86da-689481323801",
+		"name": "PROVA - ETI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27403992",
+		"_collection_link": "https://mga-dev.postman.co/workspace/My-Workspace~8a20da47-a2ec-4605-8fd3-34649aed3d71/collection/27403992-3c0ed701-c46f-4d25-86da-689481323801?action=share&source=collection_link&creator=27403992"
+	},
+	"item": [
+		{
+			"name": "Criar Veiculo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"modelo\": \"VW\",\r\n    \"anoFabricacao\": 2011,\r\n    \"placa\": \"AUK-1449\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/veiculos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"veiculos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
