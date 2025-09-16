@@ -1,0 +1,5 @@
+api/dist
+api/node_modules
+api/build
+
+frontend/node_modules

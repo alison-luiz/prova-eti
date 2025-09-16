@@ -1,0 +1,11 @@
+services:
+  prova_db:
+    container_name: 'prova_db'
+    image: 'postgres:16.4-alpine'
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: 'prova'
+      POSTGRES_PASSWORD: 'prova'
+      POSTGRES_DB: 'prova'
